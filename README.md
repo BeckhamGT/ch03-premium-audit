@@ -49,7 +49,7 @@ Synthetic tests cover the 4/5 site-day, 14/15 roof-day, 1/2 weekly ride-day, USD
 
 Inspect the actual report and deciding records, then state your own acceptance/rejection of each employer's reported split and its supporting record in the captured coding chat. Keep Harbor's undefined governing-code treatment, Severn's certificate mismatch, Patuxent's travel evidence and Larkspur's exact sales period explicit. Silence is never approval.
 
-Current review: all six individual choices and cited records have been captured in `docs/learner-review.md`. `docs/learner-review-state.json` preserves their display across regeneration only when guide/employer-source hashes match. The reports distinguish those choices from company-rule calculations; in particular, Annapolis's learner-selected two-fifths alternative conflicts with the whole-week rule and is not silently substituted into the CSV. See the verification handoff for remaining correctness and visual-QA limitations; no submission readiness is claimed.
+Current review: all six individual choices and cited records are captured in `docs/learner-review.md`, including revised acceptance of the proposed corrections for Severn and Annapolis. Annapolis explicitly cites `weekly-payroll.csv` and `route-log.csv`. `docs/learner-review-state.json` preserves current displays only when guide/employer-source hashes match; earlier conflicting choices remain historical. CSVs retain company-rule calculations. See the verification handoff for remaining open-evidence and visual-QA limitations; no submission readiness is claimed.
 
 ## Interview rule
 

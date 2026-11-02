@@ -26,7 +26,7 @@
     },
     "severn-homebuilders": {
       "status": "choice recorded",
-      "display": "Accept original split, citing insurance-certificates.csv, after the discrepancies were explained. Supplied certificates do not establish full-period coverage for all subcontractors, and the site log supports Dana’s reclassification. Source-backed proposals remain separate; employer confirmation remains open.",
+      "display": "Accept proposed correction rather than original application, superseding the earlier choice. Learner cites insurance-certificate, site-signin-log and subcontractor-payment records (supplied files: insurance-certificates.csv, site-signin-log.csv, subcontractor-payments.csv), after reviewing them. Kent’s identity/full-period coverage remains open; no missing coverage is established by learner acceptance.",
       "source_hashes": {
         "application.md": "ee9aa45fe1247743dd9da4c6e7693dd8151630e98653fd944acdb817ff4b25ed",
         "business-description.md": "7404b81d9cb83a1256a2e25299a5f9197a41f0f170236ac7633dc5f98692e9f5",
@@ -50,7 +50,7 @@
     },
     "annapolis-courier": {
       "status": "choice recorded",
-      "display": "Choose USD18976.88 of Lena’s wages in T-610 using two-fifths, citing application.md; this supersedes acceptance of the whole-week proposal. Learner alternative: T-610 USD172863.08, C-110 USD111652.32, total USD284515.40. This conflicts with Nadia’s whole-week rule and differs by USD3831.87 per code from the source-backed table and CSV. No company-policy exception is established.",
+      "display": "Accept whole-week proposed correction for Lena: USD22808.75 to T-610, yielding employer T-610 USD176694.95 and C-110 USD107820.45. Learner explicitly cites weekly-payroll.csv and route-log.csv. This supersedes the earlier two-fifths alternative after the learner acknowledged its conflict with Nadia’s rule. Employer confirmation remains open.",
       "source_hashes": {
         "application.md": "8f3c3326bf18874c1c43cfaf60312f5b3ada13ad29a885c5a49f5418afc5b21b",
         "business-description.md": "89ca4f6f3f3944fd1642514c9f7991e5943b8f013ab6e293ac8b4af562aca220",

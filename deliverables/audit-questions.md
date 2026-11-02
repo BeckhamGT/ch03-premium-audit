@@ -4,7 +4,7 @@ Nadia puts these questions to each employer owner before sign-off. These are not
 
 ## Annapolis Courier
 
-Learner review: Choose USD18976.88 of Lena’s wages in T-610 using two-fifths, citing application.md; this supersedes acceptance of the whole-week proposal. Learner alternative: T-610 USD172863.08, C-110 USD111652.32, total USD284515.40. This conflicts with Nadia’s whole-week rule and differs by USD3831.87 per code from the source-backed table and CSV. No company-policy exception is established. These questions remain unanswered by the employer.
+Learner review: Accept whole-week proposed correction for Lena: USD22808.75 to T-610, yielding employer T-610 USD176694.95 and C-110 USD107820.45. Learner explicitly cites weekly-payroll.csv and route-log.csv. This supersedes the earlier two-fifths alternative after the learner acknowledged its conflict with Nadia’s rule. Employer confirmation remains open. These questions remain unanswered by the employer.
 
 - **annapolis-courier-A01** — Please confirm Derek Nolan: USD 52956.80 allocated/added to T-610, including this treatment: Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties. Do business-description.md, field-notes.md, payroll-register.csv, route-log.csv support it, and are corrections needed?
 
@@ -194,7 +194,7 @@ Learner review: Accept proposed correction rather than original application, cit
 
 ## Severn Homebuilders
 
-Learner review: Accept original split, citing insurance-certificates.csv, after the discrepancies were explained. Supplied certificates do not establish full-period coverage for all subcontractors, and the site log supports Dana’s reclassification. Source-backed proposals remain separate; employer confirmation remains open. These questions remain unanswered by the employer.
+Learner review: Accept proposed correction rather than original application, superseding the earlier choice. Learner cites insurance-certificate, site-signin-log and subcontractor-payment records (supplied files: insurance-certificates.csv, site-signin-log.csv, subcontractor-payments.csv), after reviewing them. Kent’s identity/full-period coverage remains open; no missing coverage is established by learner acceptance. These questions remain unanswered by the employer.
 
 - **severn-homebuilders-A01** — Please confirm Garrett Holm: USD 66315.40 allocated/added to H-420, including this treatment: Residential construction crew: carpentry and site labor; CG-02/CG-05 actual duties. Do business-description.md, field-notes.md, payroll-register.csv support it, and are corrections needed?
 

@@ -106,15 +106,37 @@ Decision recorded: accept the proposed correction rather than the original appli
 
 ## Current review outcome
 
-All six individual choices and cited records have now been captured. Historical pending statements above describe earlier points in the review; they are superseded by the later statements, not silently removed.
+All six individual choices and cited records are captured, including the learner's subsequent acceptance of Severn's proposed correction and Annapolis's whole-week correction. The learner explicitly identified `weekly-payroll.csv` and `route-log.csv` for the revised Annapolis judgment. Historical statements above are preserved, with later clarifications recorded separately. No individual choice or supporting-record response remains pending.
 
 | Employer | Latest learner choice | Learner-cited record | Remaining evidence/rule discrepancy |
 |---|---|---|---|
 | Harbor Point Legal | Accept original; C-110 final learner choice for Tomas | payroll-register.csv | Register establishes wages, not a governing-code exception for six site days |
 | Bay Crest Exteriors | Accept proposed correction | crew-timesheets.csv (learner originally wrote crew-timesheet.csv) | Teresa's portion additionally relies on the site log, explained in the walkthrough |
-| Severn Homebuilders | Accept original | insurance-certificates.csv | Certificates do not establish full-period coverage for all subcontractors; site log also supports Dana's correction |
+| Severn Homebuilders | Accept proposed correction, superseding original-split acceptance | insurance certificates, site sign-in log, subcontractor payments | Kent identity/full-period coverage remains an open employer-confirmation issue |
 | Patuxent Electric | Accept proposed correction | payroll-register.csv | Actual travel-day substantiation and Kyle's zero-day allowance remain open |
-| Annapolis Courier | Choose USD18976.88 two-fifths allocation for Lena instead of the proposed whole-week allocation | application.md | Explicit conflict with Nadia's whole-week rule; no policy exception established |
+| Annapolis Courier | Accept whole-week proposed correction, superseding two-fifths alternative | weekly-payroll.csv and route-log.csv | Whole-week rule conflict resolved in latest learner choice; employer confirmations remain separate |
 | Larkspur Lane Bistro | Accept proposed correction | gross-receipts.csv | Calendar-month summary does not exactly match audit dates |
 
 Learner participation has been recorded; that is not a finding that every judgment is supported by the governing rules. Source-backed CSVs and calculation ledger retain the independently verified company-rule proposals. In particular, the Annapolis learner alternative is disclosed separately rather than silently replacing those results. Company-policy confirmation, employer confirmation, submission and grading have not occurred.
+
+## Subsequent Severn and Annapolis revision
+
+The learner supplied this new statement verbatim:
+
+> New decision, I accept Severn new proposed correction, reason is insurance-certificate, site-signin-log, and subcontractor-payment looks good to me after reviewing it. Furthermore, I want to revise my decision on Annapolis. My two-fifths allocation conflicts with Nadia’s whole-week rule.
+
+Severn's latest decision accepts the proposed correction, superseding the earlier original-split acceptance. The learner names the insurance-certificate, site-signin-log and subcontractor-payment records; corresponding supplied filenames are `insurance-certificates.csv`, `site-signin-log.csv`, and `subcontractor-payments.csv`. Their reason is preserved in the quote rather than replaced with agent-authored wording. The Kent identity/full-period coverage matter remains open; acceptance does not establish missing insurance evidence.
+
+For Annapolis, the learner explicitly recognizes the rule conflict and requests revision. The agent has asked whether the replacement is the USD22808.75 whole-week allocation for Lena (employer T-610 USD176694.95 and C-110 USD107820.45), and which records support the revised judgment. No replacement choice or new record selection is inferred from recognition of the conflict alone. The source-backed calculations remain unchanged while that response is pending.
+
+The learner subsequently answered verbatim:
+
+> Yes I accept whole-week correction, i forgot but whichever document it was that showed the driver payroll
+
+The revised whole-week allocation is now explicitly accepted, superseding the earlier two-fifths alternative. The learner has not identified a specific supporting record for this revised judgment. The agent explained that `weekly-payroll.csv` supplies weekly wages, `route-log.csv` supplies ride dates, and `audit-report.md` shows the derived driver allocation, then asked which record(s) the learner wishes to cite. No citation is chosen on the learner's behalf. Only that record identification remains pending; the numerical choice is explicit.
+
+The learner then explicitly selected:
+
+> weekly-payroll.csv and route-log.csv
+
+Annapolis's revised individual judgment and supporting records are now complete: accept the whole-week correction with USD22808.75 of Lena's wages under T-610, supported by those two records. Employer totals are T-610 USD176694.95 and C-110 USD107820.45. This latest statement completes the revised judgment; earlier two-fifths statements and intermediate pending statuses remain historical. All current learner numerical choices match the reported company-rule proposal amounts; Harbor's selected final classification is still distinguished from the open company-rule treatment. No employer confirmation, submission or grade is inferred.

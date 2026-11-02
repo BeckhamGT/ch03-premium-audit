@@ -13,7 +13,7 @@ Priority is an auditor-call recommendation based on payroll discrepancies and un
 
 ## Annapolis Courier
 
-Audit period: 2025-07-07 through 2026-07-05, inclusive. Learner review: Choose USD18976.88 of Lena’s wages in T-610 using two-fifths, citing application.md; this supersedes acceptance of the whole-week proposal. Learner alternative: T-610 USD172863.08, C-110 USD111652.32, total USD284515.40. This conflicts with Nadia’s whole-week rule and differs by USD3831.87 per code from the source-backed table and CSV. No company-policy exception is established.
+Audit period: 2025-07-07 through 2026-07-05, inclusive. Learner review: Accept whole-week proposed correction for Lena: USD22808.75 to T-610, yielding employer T-610 USD176694.95 and C-110 USD107820.45. Learner explicitly cites weekly-payroll.csv and route-log.csv. This supersedes the earlier two-fifths alternative after the learner acknowledged its conflict with Nadia’s rule. Employer confirmation remains open.
 
 | Code | Employer reported USD | Proposed USD | Difference USD | Guide |
 |---|---:|---:|---:|---|
@@ -220,7 +220,7 @@ Review provenance: authentic learner statements and later clarifications are pre
 
 ## Severn Homebuilders
 
-Audit period: 2025-07-07 through 2026-07-05, inclusive. Learner review: Accept original split, citing insurance-certificates.csv, after the discrepancies were explained. Supplied certificates do not establish full-period coverage for all subcontractors, and the site log supports Dana’s reclassification. Source-backed proposals remain separate; employer confirmation remains open.
+Audit period: 2025-07-07 through 2026-07-05, inclusive. Learner review: Accept proposed correction rather than original application, superseding the earlier choice. Learner cites insurance-certificate, site-signin-log and subcontractor-payment records (supplied files: insurance-certificates.csv, site-signin-log.csv, subcontractor-payments.csv), after reviewing them. Kent’s identity/full-period coverage remains open; no missing coverage is established by learner acceptance.
 
 | Code | Employer reported USD | Proposed USD | Difference USD | Guide |
 |---|---:|---:|---:|---|
