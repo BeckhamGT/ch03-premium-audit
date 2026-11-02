@@ -35,3 +35,17 @@ Entire checkpoint `01M6EM2Z22TFCB26RRWKBZNSH1` contains the actual Codex session
 The apprentice workspace scaffold was created locally without replacing existing files. It remains uncommitted, following the setup skill's instruction to leave workspace publication to a separately approved normal commit. Assignment artifacts use the required repository paths.
 
 The verification commit did not automatically receive an Entire checkpoint trailer. The resumed session state retains `attached_manually: true` and no worktree field from the initial attachment. Live hook events and transcript access are verified, but automatic commit linkage for this resumed session remains unverified. Same-worktree adoption was rejected by Entire as unnecessary; no session state was edited or removed. Verify a fresh session's commit-linked checkpoint before relying on automatic linkage for implementation.
+
+## Fresh-session commit linkage check — 2026-11-02
+
+Fresh Codex session `01a19dc3-5657-7b20-8a68-c3f9c79a65c5` was automatically registered with the correct worktree and base commit `c6d25d91f71db9427142b9b7a2b6559a87a715c6`. Genuine `SessionStart` and `TurnStart` events were recorded at 14:36 America/New_York. `entire doctor` reports Git hooks OK, Codex hooks installed, approval records present, and no stuck sessions. The native JSONL transcript parses successfully and contains the learner's request to verify Entire capture and commit linkage. No manual session attachment or lifecycle invocation was used for this check.
+
+The commit adding this section is the automatic-linkage probe. Its commit message must receive an `Entire-Checkpoint` trailer from the installed Git hook; no trailer is supplied by the agent. Verify the resulting committed checkpoint with:
+
+```sh
+git log -1 --format=full
+entire checkpoint explain HEAD --json
+entire checkpoint explain HEAD --transcript > /tmp/insurance-entire-checkpoint.jsonl
+```
+
+Parse the stored transcript, confirm this session ID and the actual verification request, and compare its bytes with the native transcript prefix. A working-copy transcript or enabled configuration alone does not establish commit linkage. Local verification does not establish remote checkpoint availability, delegated-session capture, or completeness for a future submitted implementation revision. The existing untracked apprentice workspace is outside this probe commit.
