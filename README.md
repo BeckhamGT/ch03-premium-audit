@@ -29,3 +29,9 @@ with the code; a project whose interview was run by an agent is not scored.
 - No implementation or runtime is supplied; choose and document the dependencies your Skill needs.
 - Export your interview as the original Markdown, save one final complete file per session under `interviews/`, and
   commit it with your code. Do not rewrite the export.
+
+## Initial setup
+
+The fork is `BeckhamGT/ch03-premium-audit`; `upstream` retains the training repository. Read the assignment PDF and [setup status](docs/setup.md). Entire is enabled for Codex and checkpoint pushes to `origin`, but the generated hooks require user review through `/hooks` before automatic capture can be verified.
+
+This stage prepares the repository only. Implementation, runtime dependencies, employer commands and result verification will be documented after the learner interview and source review. Save authentic interview exports in `interviews/`.
