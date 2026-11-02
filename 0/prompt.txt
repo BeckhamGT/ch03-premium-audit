@@ -1,0 +1,15 @@
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_7501603c923e42638cccfb6f3385d7bf\",0]","question":"For each of the six employers, state in your own words whether you accept or reject its reported payroll split, and name the record supporting your judgment. The actual comparisons and source links are in deliverables/audit-report.md. Keep any unresolved matter explicit; these must be your own judgments for the captured coding session.","answer":"Harbor points, reject, c-110. Bay crest, reject, R-310. Severn, accept. Patuxent, reject, H-420. Annapolis, accept. Larkspur, accept."}]
+</send_user_message_question_reply>
+
+---
+
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_7a583bf96381488f97abd29fe09d5812\",0]","question":"Please clarify your six judgments in your own words and name a supporting record for each. For Severn, Annapolis and Larkspur, confirm whether you intend to accept the original employer split despite the discrepancies above, or meant to accept the assistant’s proposal. For Patuxent, review H-420 versus the guide’s E-510 wiring code. Harbor and Bay Crest also need the deciding record, not only a code.","answer":"I am not sure where the supporting record are for me to help you decide."}]
+</send_user_message_question_reply>
+
+---
+
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_91da277e9f204c52bba51b65fc3ac960\",0]","question":"After inspecting the linked records, what is your own acceptance or rejection of each original employer split, and which record supports it? You can answer one employer at a time and explicitly leave a judgment pending if the evidence is still unclear.","answer":"I accept all the employer split. The records shows reasonable payroll splits."}]
+</send_user_message_question_reply>
