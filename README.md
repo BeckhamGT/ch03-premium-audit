@@ -34,4 +34,6 @@ with the code; a project whose interview was run by an agent is not scored.
 
 The fork is `BeckhamGT/ch03-premium-audit`; `upstream` retains the training repository. Read the assignment PDF and [setup status](docs/setup.md). Entire is enabled for Codex and checkpoint pushes to `origin`. Hook approvals and automatic post-restart session/turn events were verified on 2026-11-02, with a readable native transcript containing the verification request.
 
+Fresh-session automatic commit linkage was verified on 2026-11-02: commit `3ad8aa56bcce820df3c1e356fa8bfa1bc40678e1` carries Entire checkpoint `01M6EW94XY9AQQK0V8MCCT1ZHJ`, whose stored transcript contains the verification request. See [setup status](docs/setup.md) for observed redaction, snapshot boundaries and remote synchronization limits.
+
 This stage prepares the repository only. Implementation, runtime dependencies, employer commands and result verification will be documented after the learner interview and source review. Save authentic interview exports in `interviews/`.
