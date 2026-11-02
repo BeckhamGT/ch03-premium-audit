@@ -1,0 +1,492 @@
+{
+  "guide_sha256": "89480f691737a0e8a762a836b8412476e0ed9d0b37639eb898e2826771c1dba8",
+  "interview_sha256": "dcf713c98c965e9e8b176b1b0d5ed94f62ce51594fbe36585934473cdc815693",
+  "employers": {
+    "harbor-point-legal": {
+      "name": "Harbor Point Legal",
+      "start": "2025-07-07",
+      "end": "2026-07-05",
+      "workers": {
+        "HP-E01": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        },
+        "HP-E02": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        },
+        "HP-E03": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        },
+        "HP-E04": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        },
+        "HP-E05": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        }
+      },
+      "source_hashes": {
+        "application.md": "bfe89a3e1b01cceda79c992cda0e9fae9aef9148311b0d353bff4fb4fa1d18f1",
+        "business-description.md": "e2836b532e7aae28f3a9d2bf755f57240dcfefeb7ccb9a81302c6403277ecf20",
+        "field-notes.md": "79182f054841680bbd9878653043af29b0c10f4d866cc2339a62572cd9f69cee",
+        "payroll-register.csv": "d7473ff1ddf6a2d2dbd4a09925d0cd3afbdf8ca5ad4e59d0d0c4755fd01f60bb",
+        "site-signin-log.csv": "27674afc3b226422543bc722a1148791f9f5a54e063acb9bf46af6a46f6fe461"
+      },
+      "open_items": [
+        "Tomas Reyes: six site sign-ins contradict office-only application, but no field code carries payroll at this law firm. Proposed C-110 retention is not an established exception. Nadia and owner must confirm nature of visits and treatment; USD 64212.48 is affected. Court/closing visits are not job sites per field notes."
+      ]
+    },
+    "bay-crest-exteriors": {
+      "name": "Bay Crest Exteriors",
+      "start": "2025-07-07",
+      "end": "2026-07-05",
+      "workers": {
+        "BC-E01": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E02": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E03": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E04": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E05": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E06": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E07": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E08": {
+          "mode": "roof-siding",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Roofing/siding duties confirmed by crew timesheets"
+        },
+        "BC-E09": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        },
+        "BC-E10": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        }
+      },
+      "source_hashes": {
+        "application.md": "8df9839f4ee7b50bd3b065126c0c41560b912388732b2f663a7fb9bc6d1321be",
+        "business-description.md": "22e444081d2d03944c083c01b0edc3969eefb8312f913d1b07c28610f4590e29",
+        "crew-timesheets.csv": "3f1317828f41db0e5b7e2daa74620b7e8785e2455b3599f66b2bc2612bd42d6c",
+        "field-notes.md": "f7b6b2c39c776fb5c6eae78d5552d5630e7ef2c8f832a5176bbd5c589b777405",
+        "payroll-register.csv": "2c05577fa783f77dd45f922c7e5a449cee03f6a3423d2ffb56526ed5d4df827d",
+        "site-signin-log.csv": "42b7021d03d32913a53173a5360c32fad36c6f60a0d264c87f81097da1a638e5"
+      },
+      "priority": 1,
+      "call_reason": "Largest evident field/clerical misclassification; timesheets include a siding installer at the 15-roof-day boundary and estimator has 9 site days. Confirm crew duties and whole-worker classification rather than sales mix."
+    },
+    "severn-homebuilders": {
+      "name": "Severn Homebuilders",
+      "start": "2025-07-07",
+      "end": "2026-07-05",
+      "workers": {
+        "SH-E01": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Residential construction crew: carpentry and site labor",
+          "code": "H-420"
+        },
+        "SH-E02": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Residential construction crew: carpentry and site labor",
+          "code": "H-420"
+        },
+        "SH-E03": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Residential construction crew: carpentry and site labor",
+          "code": "H-420"
+        },
+        "SH-E04": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Residential construction crew: carpentry and site labor",
+          "code": "H-420"
+        },
+        "SH-E05": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Residential construction crew: carpentry and site labor",
+          "code": "H-420"
+        },
+        "SH-E06": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        },
+        "SH-E07": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        },
+        "SH-E08": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        }
+      },
+      "source_hashes": {
+        "application.md": "ee9aa45fe1247743dd9da4c6e7693dd8151630e98653fd944acdb817ff4b25ed",
+        "business-description.md": "7404b81d9cb83a1256a2e25299a5f9197a41f0f170236ac7633dc5f98692e9f5",
+        "field-notes.md": "1460d5cc05dc487d80bb2c382152dad609baf45cc24bec77035cf00359e5be6d",
+        "insurance-certificates.csv": "77ff18a72e35e9326e752e14d09aa5a8db63fd923d13afb107c06970ee489909",
+        "payroll-register.csv": "4536004d11a63f4e733a37905ab9201f021ee34a05982405dd7f8f48a81bd075",
+        "site-signin-log.csv": "9ae36a9e35bb64f9ccbecb9321c0fddf9f721ff1cfce7633bc5f45f00e9937f7",
+        "subcontractor-payments.csv": "114f76a91a9a66ea0c1fee4f8c19e268ada6119f18d4ec561d6a168833d4c516"
+      },
+      "subcontract_work": {
+        "framing": "H-420",
+        "drywall": "H-420",
+        "roofing": "R-310"
+      },
+      "certificate_candidates": {
+        "Kent Island Roofing": "Kent Island Roofing & Siding LLC"
+      },
+      "priority": 2,
+      "call_reason": "Uninsured drywall and lapsed/name-mismatched roofing certificates add payroll; Dana has 11 site days despite office reporting. Obtain identity and full-period coverage before sign-off."
+    },
+    "patuxent-electric": {
+      "name": "Patuxent Electric",
+      "start": "2025-07-07",
+      "end": "2026-07-05",
+      "workers": {
+        "PE-E01": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Electrical wiring on site; included owner personally pulls wire",
+          "code": "E-510"
+        },
+        "PE-E02": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Electrician or apprentice installing wiring",
+          "code": "E-510"
+        },
+        "PE-E03": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Electrician or apprentice installing wiring",
+          "code": "E-510"
+        },
+        "PE-E04": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Electrician or apprentice installing wiring",
+          "code": "E-510"
+        },
+        "PE-E05": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Electrician or apprentice installing wiring",
+          "code": "E-510"
+        },
+        "PE-E06": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Electrician or apprentice installing wiring",
+          "code": "E-510"
+        },
+        "PE-E07": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        }
+      },
+      "source_hashes": {
+        "application.md": "55f0c7b086ac550f0f8b98a9d22aa906ffe4005e2c8259fd5d9fe72e2d2bd07e",
+        "business-description.md": "ab025cd6d057708188e0060ef2309e64e990cdbbb25e4fe97402af6cf5434bfd",
+        "field-notes.md": "6055df5e294c902b884ece23e30a9b424f3f1df801e5c97c39eb12b93453d72e",
+        "payroll-register.csv": "1dd09ea917394706df1c0166ba3869cdb20820b0e7605c500d0a11d3f6263e71",
+        "site-signin-log.csv": "49e585c8512862c1959eefb431419d416e3bf236f0b4004347a4e7bfcc1195b6"
+      },
+      "open_items": [
+        "Travel-day counts appear in payroll register; no separate daily travel log was supplied. Confirm actual out-of-town dates and flat daily payments before accepting exclusions; provide supporting travel-day records."
+      ]
+    },
+    "annapolis-courier": {
+      "name": "Annapolis Courier",
+      "start": "2025-07-07",
+      "end": "2026-07-05",
+      "workers": {
+        "AC-E01": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md",
+            "route-log.csv"
+          ],
+          "duty": "Parcel delivery driver, corroborated by route log",
+          "code": "T-610"
+        },
+        "AC-E02": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md",
+            "route-log.csv"
+          ],
+          "duty": "Parcel delivery driver, corroborated by route log",
+          "code": "T-610"
+        },
+        "AC-E03": {
+          "mode": "field",
+          "records": [
+            "business-description.md",
+            "field-notes.md",
+            "route-log.csv"
+          ],
+          "duty": "Parcel delivery driver, corroborated by route log",
+          "code": "T-610"
+        },
+        "AC-E04": {
+          "mode": "dispatcher",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Dispatcher with route ride-alongs, classified using weekly route records"
+        },
+        "AC-E05": {
+          "mode": "dispatcher",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Dispatcher with route ride-alongs, classified using weekly route records"
+        },
+        "AC-E06": {
+          "mode": "office",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Office work supported by employer description and field notes"
+        }
+      },
+      "source_hashes": {
+        "application.md": "8f3c3326bf18874c1c43cfaf60312f5b3ada13ad29a885c5a49f5418afc5b21b",
+        "business-description.md": "89ca4f6f3f3944fd1642514c9f7991e5943b8f013ab6e293ac8b4af562aca220",
+        "field-notes.md": "38916588e94bb87cb17a4c4e8988515c505c53f943287d2c17e55a13efd8dc84",
+        "payroll-register.csv": "5d88008ff2ce2ea367a89e95bdd81f38cc14d210ee15fd1556ec37fb6493930b",
+        "route-log.csv": "b7a8a9584ee7a4df25a6506f4473cbb6f52189b4b8ccc628bf442457b0400189",
+        "weekly-payroll.csv": "3e23df9b8139a36585e96760027d6d8d3117aa441f416431a71679e8f3ad5782"
+      }
+    },
+    "larkspur-lane-bistro": {
+      "name": "Larkspur Lane Bistro",
+      "start": "2025-07-07",
+      "end": "2026-07-05",
+      "workers": {
+        "LL-E01": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E02": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E03": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E04": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E05": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E06": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E07": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E08": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        },
+        "LL-E09": {
+          "mode": "restaurant",
+          "records": [
+            "business-description.md",
+            "field-notes.md"
+          ],
+          "duty": "Restaurant/catering food preparation and service; mixed shifts in field notes"
+        }
+      },
+      "source_hashes": {
+        "application.md": "e80ab8ffeb32d9208515da8f8671416f0897a71d83f6f6f223dd54e62486df7b",
+        "business-description.md": "296ef9224ae172d208941e67f6ba83bfa5ab049c46117acb56873bf56e707e5e",
+        "field-notes.md": "d7df20e3f376bd598149a7d0394a4a55dd898caaeb1cb1c9d73b2cf76b0f782c",
+        "gross-receipts.csv": "66f5e8a17bfe7cc4b0f4c36029859d4d20fa25ac64df3b426ccefb0471186d55",
+        "payroll-register.csv": "2190e692efc90ec036d6b69ee51726ca37d5ada823148c928e55396c0f188ecf"
+      },
+      "open_items": [
+        "Sales summary is calendar months July 2025\u2013June 2026, while audit runs July 7, 2025\u2013July 5, 2026. Proposed use of supplied summary for eligibility requires owner confirmation or exact-period receipts, including July 1\u20135, 2026. Missing time records matter if exact-period catering reaches 40%; no sales-ratio wage allocation."
+      ]
+    }
+  }
+}

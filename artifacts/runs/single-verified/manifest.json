@@ -1,0 +1,53 @@
+{
+  "retrieved_at_utc": "2026-11-02T19:48:51.348863+00:00",
+  "files": [
+    {
+      "path": "classification-guide.md",
+      "url": "https://drive.google.com/file/d/1L5MxLny7erhjSwCvl43DTSmAt3wgv22j/view",
+      "sha256": "89480f691737a0e8a762a836b8412476e0ed9d0b37639eb898e2826771c1dba8",
+      "bytes": 3555
+    },
+    {
+      "path": "annapolis-courier/inventory.json",
+      "url": "https://drive.google.com/drive/folders/1PGc2b6QTrQ8xRkPqUeQ9aWkR1j6J3QPP",
+      "sha256": "8d31c7cd755e2e77c710e6abba134de46fe75d82b2d55e1e92e8464e670ed6f5",
+      "bytes": 579
+    },
+    {
+      "path": "annapolis-courier/application.md",
+      "url": "https://drive.google.com/file/d/1_QqnLoaf3ceKMMJMT2jw5ABHV3kgSIBJ/view",
+      "sha256": "8f3c3326bf18874c1c43cfaf60312f5b3ada13ad29a885c5a49f5418afc5b21b",
+      "bytes": 398
+    },
+    {
+      "path": "annapolis-courier/business-description.md",
+      "url": "https://drive.google.com/file/d/1O_EdWsI1LkifqGFAmB227iFlfXjSHu0T/view",
+      "sha256": "89ca4f6f3f3944fd1642514c9f7991e5943b8f013ab6e293ac8b4af562aca220",
+      "bytes": 391
+    },
+    {
+      "path": "annapolis-courier/field-notes.md",
+      "url": "https://drive.google.com/file/d/1eSt_14PU6n8daKBY6dXqzmGW7Ny1mozi/view",
+      "sha256": "38916588e94bb87cb17a4c4e8988515c505c53f943287d2c17e55a13efd8dc84",
+      "bytes": 375
+    },
+    {
+      "path": "annapolis-courier/payroll-register.csv",
+      "url": "https://drive.google.com/file/d/1eJgq7W9-XcwBIaIddXIHwKg1yNd-3dFD/view",
+      "sha256": "5d88008ff2ce2ea367a89e95bdd81f38cc14d210ee15fd1556ec37fb6493930b",
+      "bytes": 259
+    },
+    {
+      "path": "annapolis-courier/route-log.csv",
+      "url": "https://drive.google.com/file/d/19UX2yawPRLp6wr2PLCK1-PqviXtI4Btu/view",
+      "sha256": "b7a8a9584ee7a4df25a6506f4473cbb6f52189b4b8ccc628bf442457b0400189",
+      "bytes": 25688
+    },
+    {
+      "path": "annapolis-courier/weekly-payroll.csv",
+      "url": "https://drive.google.com/file/d/1CGWUkMjRyosKXQguk9Wb6F1ngaGtlKpi/view",
+      "sha256": "3e23df9b8139a36585e96760027d6d8d3117aa441f416431a71679e8f3ad5782",
+      "bytes": 11326
+    }
+  ]
+}

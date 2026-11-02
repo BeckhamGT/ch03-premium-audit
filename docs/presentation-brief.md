@@ -1,0 +1,11 @@
+# Factual presentation brief
+
+**Problem.** Employers report payroll under class codes before underwriting quotes. Nadia needs a first-pass assistant that checks actual duties against company rules, explains adjustments and prepares confirmation questions, while leaving rates and premiums to underwriting.
+
+**Interview discoveries.** Office staff cross to the governing field code at five site days; mixed roofing/siding workers cross at fifteen audit-period roof days with whole-worker wages. Dispatchers cross at two ride days within a pay week. Supported flat travel allowances exclude up to USD47/day. Missing or lapsed full-period subcontract coverage adds 60% of payments; name mismatches remain unresolved. Catering eligibility begins at 40% of gross receipts and does not authorize sales-proportion wage splits. Sources: guide paragraphs and exact interview timestamps in the rule map.
+
+**Approach.** Reusable agent instructions plus a small Python/curl tool. Fetch current authorized sources each run, retain provenance, review duty facts, use Decimal calculations and produce code CSVs, worker/payment detail and employer questions. Unchanged source hashes permit reproducibility; changed sources require review. No employer answer totals are embedded in product code.
+
+**Demonstrated verification.** Real single/all commands; independent integer-cent reconciliation of six original employer datasets; thirteen synthetic boundary/failure tests; final repeated retrieval gives identical CSV/ledger bytes. A genuine gutters input-validation failure was diagnosed against CG-12, corrected and regression-tested. Authentic interview copy and genuine Entire checkpoints preserve provenance.
+
+**Findings and limits.** Call Bay Crest and Severn first based on payroll discrepancies and evidence gaps. Retain open treatments for Harbor's missing governing code, Severn's name/coverage mismatch, Patuxent's travel evidence, and Larkspur's sales period. The learner's latest choice accepts all six original splits but does not identify the required supporting records; this differs from the proposals and does not erase the discrepancies. Browser-rendered visual inspection was blocked. Implementation and proposed outputs are built; record-supported learner review, employer confirmation, submission and grading remain incomplete.

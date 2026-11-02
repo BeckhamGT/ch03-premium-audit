@@ -6,7 +6,7 @@ Every operational run re-lists public auditor-provided Drive folders and downloa
 
 Money uses Decimal with half-up cents per monetary adjustment; this is a documented technical rounding convention, not an interview claim. Dates use inclusive employer audit periods, and dispatcher weeks use supplied week_start/week_end. Distinct worker/date pairs prevent duplicate logs inflating thresholds; duplicate payroll/payment rows fail for review. Partial payroll periods and unknown governing codes require explicit uncertainty.
 
-Produce atomic run outputs after full calculation; leave prior deliverables untouched on failure and write a failed-run status. CSVs are proposed first-pass allocations, not approval. Reports include each worker, subcontract payment, record, adjustment and confirmation question, with open matters and potential consequences. Preserve learner judgments as pending until supplied in the captured chat.
+Stage output content after full calculation; leave prior deliverables untouched on source or calculation failure and write a failed-run status. Publication uses a filesystem copy, so an I/O failure during publication requires inspecting the output rather than assuming a successful complete update. CSVs are proposed first-pass allocations, not approval. Reports include each worker, subcontract payment, record, adjustment and confirmation question, with open matters and potential consequences. Preserve learner judgments as pending until supplied in the captured chat.
 
 ## Source-to-rule-to-verification map
 

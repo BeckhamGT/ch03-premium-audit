@@ -1,0 +1,8 @@
+employee_id,name,position,wages_paid,travel_days,travel_allowance_paid
+PE-E01,Raymond Dunmore,"Owner, Master Electrician",118000.00,0,0.00
+PE-E02,Curtis Bell,Journeyman Electrician,72410.35,40,2600.00
+PE-E03,Hector Ruiz,Journeyman Electrician,69855.90,40,2600.00
+PE-E04,Aaron Weiss,Journeyman Electrician,64120.65,40,2600.00
+PE-E05,Tyrone Banks,Electrician,58377.20,22,1034.00
+PE-E06,Kyle Brandt,Apprentice Electrician,41260.75,0,390.00
+PE-E07,Linda Marsh,Office Administrator,43905.60,0,0.00

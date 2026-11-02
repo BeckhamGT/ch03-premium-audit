@@ -1,0 +1,1874 @@
+{
+  "annapolis-courier": {
+    "name": "Annapolis Courier",
+    "start": "2025-07-07",
+    "end": "2026-07-05",
+    "totals": {
+      "T-610": "176694.95",
+      "C-110": "107820.45"
+    },
+    "reported": {
+      "T-610": "153886.20",
+      "C-110": "130629.20"
+    },
+    "codes": {
+      "C-110": "CG-04",
+      "R-310": "CG-11",
+      "R-320": "CG-12",
+      "L-620": "CG-13",
+      "H-420": "CG-15",
+      "E-510": "CG-21",
+      "M-830": "CG-22",
+      "T-610": "CG-31",
+      "G-950": "CG-35",
+      "F-710": "CG-41",
+      "F-720": "CG-42",
+      "N-910": "CG-51"
+    },
+    "base": "284515.40",
+    "allowance_included": "0",
+    "allowance_excluded": "0",
+    "subcontract_added": "0",
+    "allocated": "284515.40",
+    "ledger": [
+      {
+        "person": "Derek Nolan",
+        "amount": "52956.80",
+        "code": "T-610",
+        "reason": "Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Maria Santos",
+        "amount": "51311.00",
+        "code": "T-610",
+        "reason": "Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Felix Grant",
+        "amount": "49618.40",
+        "code": "T-610",
+        "reason": "Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Lena Ortiz",
+        "amount": "22808.75",
+        "code": "T-610",
+        "reason": "25 whole pay weeks; >=2 ride days T-610, otherwise C-110; Nadia 02:20 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv",
+          "weekly-payroll.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Lena Ortiz",
+        "amount": "24633.45",
+        "code": "C-110",
+        "reason": "27 whole pay weeks; >=2 ride days T-610, otherwise C-110; Nadia 02:20 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv",
+          "weekly-payroll.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Paul Haskins",
+        "amount": "46675.20",
+        "code": "C-110",
+        "reason": "52 whole pay weeks; >=2 ride days T-610, otherwise C-110; Nadia 02:20 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv",
+          "weekly-payroll.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Irene Voss",
+        "amount": "36511.80",
+        "code": "C-110",
+        "reason": "Reviewed office duties; site-day count unverified because no site log was supplied; CG-04",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      }
+    ],
+    "open_items": [
+      "Irene Voss: No site log supplied: office allocation is proposed from reviewed duties; owner must confirm whether site visits occurred. Wage affected: USD 36511.80."
+    ],
+    "weekly": [
+      {
+        "week_start": "2025-07-07",
+        "week_end": "2025-07-13",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-07-14",
+        "week_end": "2025-07-20",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-21",
+        "week_end": "2025-07-27",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-28",
+        "week_end": "2025-08-03",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-08-04",
+        "week_end": "2025-08-10",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-11",
+        "week_end": "2025-08-17",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-18",
+        "week_end": "2025-08-24",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-08-25",
+        "week_end": "2025-08-31",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-01",
+        "week_end": "2025-09-07",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-08",
+        "week_end": "2025-09-14",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-15",
+        "week_end": "2025-09-21",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-22",
+        "week_end": "2025-09-28",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-29",
+        "week_end": "2025-10-05",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-10-06",
+        "week_end": "2025-10-12",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-10-13",
+        "week_end": "2025-10-19",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-10-20",
+        "week_end": "2025-10-26",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-27",
+        "week_end": "2025-11-02",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-03",
+        "week_end": "2025-11-09",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-10",
+        "week_end": "2025-11-16",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-17",
+        "week_end": "2025-11-23",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-24",
+        "week_end": "2025-11-30",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-12-01",
+        "week_end": "2025-12-07",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-08",
+        "week_end": "2025-12-14",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-15",
+        "week_end": "2025-12-21",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-22",
+        "week_end": "2025-12-28",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-12-29",
+        "week_end": "2026-01-04",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-01-05",
+        "week_end": "2026-01-11",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-12",
+        "week_end": "2026-01-18",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-19",
+        "week_end": "2026-01-25",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-01-26",
+        "week_end": "2026-02-01",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-02",
+        "week_end": "2026-02-08",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-02-09",
+        "week_end": "2026-02-15",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-16",
+        "week_end": "2026-02-22",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-02-23",
+        "week_end": "2026-03-01",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-02",
+        "week_end": "2026-03-08",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-03-09",
+        "week_end": "2026-03-15",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-16",
+        "week_end": "2026-03-22",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-23",
+        "week_end": "2026-03-29",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-30",
+        "week_end": "2026-04-05",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-06",
+        "week_end": "2026-04-12",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-13",
+        "week_end": "2026-04-19",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-20",
+        "week_end": "2026-04-26",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-04-27",
+        "week_end": "2026-05-03",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-05-04",
+        "week_end": "2026-05-10",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-11",
+        "week_end": "2026-05-17",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-18",
+        "week_end": "2026-05-24",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-25",
+        "week_end": "2026-05-31",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-01",
+        "week_end": "2026-06-07",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-06-08",
+        "week_end": "2026-06-14",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-06-15",
+        "week_end": "2026-06-21",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-07",
+        "week_end": "2025-07-13",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-14",
+        "week_end": "2025-07-20",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-21",
+        "week_end": "2025-07-27",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-28",
+        "week_end": "2025-08-03",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-04",
+        "week_end": "2025-08-10",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-11",
+        "week_end": "2025-08-17",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-18",
+        "week_end": "2025-08-24",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-25",
+        "week_end": "2025-08-31",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-01",
+        "week_end": "2025-09-07",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-08",
+        "week_end": "2025-09-14",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-15",
+        "week_end": "2025-09-21",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-22",
+        "week_end": "2025-09-28",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-29",
+        "week_end": "2025-10-05",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-06",
+        "week_end": "2025-10-12",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-13",
+        "week_end": "2025-10-19",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-20",
+        "week_end": "2025-10-26",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-27",
+        "week_end": "2025-11-02",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-03",
+        "week_end": "2025-11-09",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-10",
+        "week_end": "2025-11-16",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-17",
+        "week_end": "2025-11-23",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-24",
+        "week_end": "2025-11-30",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-01",
+        "week_end": "2025-12-07",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-08",
+        "week_end": "2025-12-14",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-15",
+        "week_end": "2025-12-21",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-22",
+        "week_end": "2025-12-28",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-29",
+        "week_end": "2026-01-04",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-05",
+        "week_end": "2026-01-11",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-12",
+        "week_end": "2026-01-18",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-19",
+        "week_end": "2026-01-25",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-26",
+        "week_end": "2026-02-01",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-02",
+        "week_end": "2026-02-08",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-09",
+        "week_end": "2026-02-15",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-16",
+        "week_end": "2026-02-22",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-23",
+        "week_end": "2026-03-01",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-02",
+        "week_end": "2026-03-08",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-09",
+        "week_end": "2026-03-15",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-16",
+        "week_end": "2026-03-22",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-23",
+        "week_end": "2026-03-29",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-30",
+        "week_end": "2026-04-05",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-06",
+        "week_end": "2026-04-12",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-13",
+        "week_end": "2026-04-19",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-20",
+        "week_end": "2026-04-26",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-27",
+        "week_end": "2026-05-03",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-04",
+        "week_end": "2026-05-10",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-11",
+        "week_end": "2026-05-17",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-18",
+        "week_end": "2026-05-24",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-25",
+        "week_end": "2026-05-31",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-01",
+        "week_end": "2026-06-07",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-08",
+        "week_end": "2026-06-14",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-15",
+        "week_end": "2026-06-21",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      }
+    ],
+    "governing": "T-610",
+    "source_names": [
+      "application.md",
+      "business-description.md",
+      "field-notes.md",
+      "payroll-register.csv",
+      "route-log.csv",
+      "weekly-payroll.csv"
+    ],
+    "call_reason": "",
+    "priority": 99
+  },
+  "bay-crest-exteriors": {
+    "name": "Bay Crest Exteriors",
+    "start": "2025-07-07",
+    "end": "2026-07-05",
+    "totals": {
+      "R-310": "450480.60",
+      "R-320": "46205.10",
+      "C-110": "44812.35"
+    },
+    "reported": {
+      "C-110": "363970.45",
+      "R-310": "177527.60"
+    },
+    "codes": {
+      "C-110": "CG-04",
+      "R-310": "CG-11",
+      "R-320": "CG-12",
+      "L-620": "CG-13",
+      "H-420": "CG-15",
+      "E-510": "CG-21",
+      "M-830": "CG-22",
+      "T-610": "CG-31",
+      "G-950": "CG-35",
+      "F-710": "CG-41",
+      "F-720": "CG-42",
+      "N-910": "CG-51"
+    },
+    "base": "541498.05",
+    "allowance_included": "0",
+    "allowance_excluded": "0",
+    "subcontract_added": "0",
+    "allocated": "541498.05",
+    "ledger": [
+      {
+        "person": "Darnell Price",
+        "amount": "61240.55",
+        "code": "R-310",
+        "reason": "188 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Kevin Moraes",
+        "amount": "58976.20",
+        "code": "R-310",
+        "reason": "176 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Sam Okonjo",
+        "amount": "57310.85",
+        "code": "R-310",
+        "reason": "201 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Luis Carrillo",
+        "amount": "54880.40",
+        "code": "R-310",
+        "reason": "164 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Brian Tull",
+        "amount": "52115.75",
+        "code": "R-310",
+        "reason": "152 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Owen Petrakis",
+        "amount": "49607.30",
+        "code": "R-310",
+        "reason": "97 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Rafael Duarte",
+        "amount": "47918.65",
+        "code": "R-310",
+        "reason": "15 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Jamal Whitfield",
+        "amount": "46205.10",
+        "code": "R-320",
+        "reason": "9 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM",
+        "records": [
+          "business-description.md",
+          "crew-timesheets.csv",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Teresa Lindqvist",
+        "amount": "68430.90",
+        "code": "R-310",
+        "reason": "9 distinct audit-period site days; governing=R-310; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Nora Beckett",
+        "amount": "44812.35",
+        "code": "C-110",
+        "reason": "0 distinct audit-period site days; governing=R-310; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      }
+    ],
+    "open_items": [],
+    "weekly": [],
+    "governing": "R-310",
+    "source_names": [
+      "application.md",
+      "business-description.md",
+      "crew-timesheets.csv",
+      "field-notes.md",
+      "payroll-register.csv",
+      "site-signin-log.csv"
+    ],
+    "call_reason": "Largest evident field/clerical misclassification; timesheets include a siding installer at the 15-roof-day boundary and estimator has 9 site days. Confirm crew duties and whole-worker classification rather than sales mix.",
+    "priority": 1
+  },
+  "harbor-point-legal": {
+    "name": "Harbor Point Legal",
+    "start": "2025-07-07",
+    "end": "2026-07-05",
+    "totals": {
+      "C-110": "425148.16"
+    },
+    "reported": {
+      "C-110": "425148.16"
+    },
+    "codes": {
+      "C-110": "CG-04",
+      "R-310": "CG-11",
+      "R-320": "CG-12",
+      "L-620": "CG-13",
+      "H-420": "CG-15",
+      "E-510": "CG-21",
+      "M-830": "CG-22",
+      "T-610": "CG-31",
+      "G-950": "CG-35",
+      "F-710": "CG-41",
+      "F-720": "CG-42",
+      "N-910": "CG-51"
+    },
+    "base": "425148.16",
+    "allowance_included": "0",
+    "allowance_excluded": "0",
+    "subcontract_added": "0",
+    "allocated": "425148.16",
+    "ledger": [
+      {
+        "person": "Marcus Adeyemi",
+        "amount": "128400.00",
+        "code": "C-110",
+        "reason": "0 distinct audit-period site days; governing=None; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Julia Fenwick",
+        "amount": "121750.00",
+        "code": "C-110",
+        "reason": "0 distinct audit-period site days; governing=None; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Tomas Reyes",
+        "amount": "64212.48",
+        "code": "C-110",
+        "reason": "6 distinct audit-period site days; governing=None; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Ellen Short",
+        "amount": "51880.16",
+        "code": "C-110",
+        "reason": "0 distinct audit-period site days; governing=None; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Gwen Talbot",
+        "amount": "58905.52",
+        "code": "C-110",
+        "reason": "0 distinct audit-period site days; governing=None; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      }
+    ],
+    "open_items": [
+      "Tomas Reyes: No unique governing field code: provisional clerical retention; confirm treatment. Wage affected: USD 64212.48.",
+      "Tomas Reyes: six site sign-ins contradict office-only application, but no field code carries payroll at this law firm. Proposed C-110 retention is not an established exception. Nadia and owner must confirm nature of visits and treatment; USD 64212.48 is affected. Court/closing visits are not job sites per field notes."
+    ],
+    "weekly": [],
+    "governing": null,
+    "source_names": [
+      "application.md",
+      "business-description.md",
+      "field-notes.md",
+      "payroll-register.csv",
+      "site-signin-log.csv"
+    ],
+    "call_reason": "",
+    "priority": 99
+  },
+  "larkspur-lane-bistro": {
+    "name": "Larkspur Lane Bistro",
+    "start": "2025-07-07",
+    "end": "2026-07-05",
+    "totals": {
+      "F-710": "340725.35"
+    },
+    "reported": {
+      "F-710": "226431.55",
+      "F-720": "114293.80"
+    },
+    "codes": {
+      "C-110": "CG-04",
+      "R-310": "CG-11",
+      "R-320": "CG-12",
+      "L-620": "CG-13",
+      "H-420": "CG-15",
+      "E-510": "CG-21",
+      "M-830": "CG-22",
+      "T-610": "CG-31",
+      "G-950": "CG-35",
+      "F-710": "CG-41",
+      "F-720": "CG-42",
+      "N-910": "CG-51"
+    },
+    "base": "340725.35",
+    "allowance_included": "0",
+    "allowance_excluded": "0",
+    "subcontract_added": "0",
+    "allocated": "340725.35",
+    "ledger": [
+      {
+        "person": "Anton Varga",
+        "amount": "52310.45",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Bea Lindell",
+        "amount": "41872.30",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Omar Haddad",
+        "amount": "39640.15",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Sophie Tran",
+        "amount": "33215.80",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Will Garner",
+        "amount": "31904.65",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Jose Melendez",
+        "amount": "27488.20",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Hannah Pryor",
+        "amount": "46725.55",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Ivan Petrov",
+        "amount": "38190.40",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Clara Bose",
+        "amount": "29377.85",
+        "code": "F-710",
+        "reason": "Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "gross-receipts.csv",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      }
+    ],
+    "open_items": [
+      "Anton Varga: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 52310.45.",
+      "Bea Lindell: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 41872.30.",
+      "Clara Bose: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 29377.85.",
+      "Hannah Pryor: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 46725.55.",
+      "Ivan Petrov: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 38190.40.",
+      "Jose Melendez: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 27488.20.",
+      "Omar Haddad: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 39640.15.",
+      "Sales summary is calendar months July 2025\u2013June 2026, while audit runs July 7, 2025\u2013July 5, 2026. Proposed use of supplied summary for eligibility requires owner confirmation or exact-period receipts, including July 1\u20135, 2026. Missing time records matter if exact-period catering reaches 40%; no sales-ratio wage allocation.",
+      "Sophie Tran: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 33215.80.",
+      "Will Garner: Supplied monthly receipts do not establish exact audit-period receipts; allocation provisional pending owner confirmation. Wage affected: USD 31904.65."
+    ],
+    "weekly": [],
+    "governing": null,
+    "source_names": [
+      "application.md",
+      "business-description.md",
+      "field-notes.md",
+      "gross-receipts.csv",
+      "payroll-register.csv"
+    ],
+    "call_reason": "",
+    "priority": 99
+  },
+  "patuxent-electric": {
+    "name": "Patuxent Electric",
+    "start": "2025-07-07",
+    "end": "2026-07-05",
+    "totals": {
+      "E-510": "426574.85",
+      "C-110": "43905.60"
+    },
+    "reported": {
+      "E-510": "306024.85",
+      "C-110": "161905.60"
+    },
+    "codes": {
+      "C-110": "CG-04",
+      "R-310": "CG-11",
+      "R-320": "CG-12",
+      "L-620": "CG-13",
+      "H-420": "CG-15",
+      "E-510": "CG-21",
+      "M-830": "CG-22",
+      "T-610": "CG-31",
+      "G-950": "CG-35",
+      "F-710": "CG-41",
+      "F-720": "CG-42",
+      "N-910": "CG-51"
+    },
+    "base": "467930.45",
+    "allowance_included": "2550.00",
+    "allowance_excluded": "6674.00",
+    "subcontract_added": "0",
+    "allocated": "470480.45",
+    "ledger": [
+      {
+        "person": "Raymond Dunmore",
+        "amount": "118000.00",
+        "code": "E-510",
+        "reason": "Electrical wiring on site; included owner personally pulls wire; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Curtis Bell",
+        "amount": "72410.35",
+        "code": "E-510",
+        "reason": "Electrician or apprentice installing wiring; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Curtis Bell \u2014 allowance",
+        "amount": "720.00",
+        "code": "E-510",
+        "reason": "Paid 2600.00; 40 recorded travel days \u00d7 USD 47; excluded 1880.00; included 720.00; CG-03/Nadia 02:17\u201302:18 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported; travel-day evidence confirmation"
+      },
+      {
+        "person": "Hector Ruiz",
+        "amount": "69855.90",
+        "code": "E-510",
+        "reason": "Electrician or apprentice installing wiring; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Hector Ruiz \u2014 allowance",
+        "amount": "720.00",
+        "code": "E-510",
+        "reason": "Paid 2600.00; 40 recorded travel days \u00d7 USD 47; excluded 1880.00; included 720.00; CG-03/Nadia 02:17\u201302:18 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported; travel-day evidence confirmation"
+      },
+      {
+        "person": "Aaron Weiss",
+        "amount": "64120.65",
+        "code": "E-510",
+        "reason": "Electrician or apprentice installing wiring; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Aaron Weiss \u2014 allowance",
+        "amount": "720.00",
+        "code": "E-510",
+        "reason": "Paid 2600.00; 40 recorded travel days \u00d7 USD 47; excluded 1880.00; included 720.00; CG-03/Nadia 02:17\u201302:18 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported; travel-day evidence confirmation"
+      },
+      {
+        "person": "Tyrone Banks",
+        "amount": "58377.20",
+        "code": "E-510",
+        "reason": "Electrician or apprentice installing wiring; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Tyrone Banks \u2014 allowance",
+        "amount": "0.00",
+        "code": "E-510",
+        "reason": "Paid 1034.00; 22 recorded travel days \u00d7 USD 47; excluded 1034.00; included 0.00; CG-03/Nadia 02:17\u201302:18 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported; travel-day evidence confirmation"
+      },
+      {
+        "person": "Kyle Brandt",
+        "amount": "41260.75",
+        "code": "E-510",
+        "reason": "Electrician or apprentice installing wiring; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Kyle Brandt \u2014 allowance",
+        "amount": "390.00",
+        "code": "E-510",
+        "reason": "Paid 390.00; 0 recorded travel days \u00d7 USD 47; excluded 0.00; included 390.00; CG-03/Nadia 02:17\u201302:18 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Linda Marsh",
+        "amount": "43905.60",
+        "code": "C-110",
+        "reason": "0 distinct audit-period site days; governing=E-510; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      }
+    ],
+    "open_items": [
+      "Kyle Brandt: USD 390.00 allowance with zero recorded travel days; proposed full inclusion; owner must explain payment or supply substantiation.",
+      "Travel-day counts appear in payroll register; no separate daily travel log was supplied. Confirm actual out-of-town dates and flat daily payments before accepting exclusions; provide supporting travel-day records."
+    ],
+    "weekly": [],
+    "governing": "E-510",
+    "source_names": [
+      "application.md",
+      "business-description.md",
+      "field-notes.md",
+      "payroll-register.csv",
+      "site-signin-log.csv"
+    ],
+    "call_reason": "",
+    "priority": 99
+  },
+  "severn-homebuilders": {
+    "name": "Severn Homebuilders",
+    "start": "2025-07-07",
+    "end": "2026-07-05",
+    "totals": {
+      "H-420": "369204.39",
+      "C-110": "117368.70",
+      "R-310": "27567.39"
+    },
+    "reported": {
+      "H-420": "284670.30",
+      "C-110": "177209.40"
+    },
+    "codes": {
+      "C-110": "CG-04",
+      "R-310": "CG-11",
+      "R-320": "CG-12",
+      "L-620": "CG-13",
+      "H-420": "CG-15",
+      "E-510": "CG-21",
+      "M-830": "CG-22",
+      "T-610": "CG-31",
+      "G-950": "CG-35",
+      "F-710": "CG-41",
+      "F-720": "CG-42",
+      "N-910": "CG-51"
+    },
+    "base": "461879.70",
+    "allowance_included": "0",
+    "allowance_excluded": "0",
+    "subcontract_added": "52260.78",
+    "allocated": "514140.48",
+    "ledger": [
+      {
+        "person": "Garrett Holm",
+        "amount": "66315.40",
+        "code": "H-420",
+        "reason": "Residential construction crew: carpentry and site labor; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Victor Amadi",
+        "amount": "62780.15",
+        "code": "H-420",
+        "reason": "Residential construction crew: carpentry and site labor; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Peter Kowal",
+        "amount": "58442.60",
+        "code": "H-420",
+        "reason": "Residential construction crew: carpentry and site labor; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Andre Sutton",
+        "amount": "49905.85",
+        "code": "H-420",
+        "reason": "Residential construction crew: carpentry and site labor; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Colin Rusk",
+        "amount": "47226.30",
+        "code": "H-420",
+        "reason": "Residential construction crew: carpentry and site labor; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Marissa Gale",
+        "amount": "71250.45",
+        "code": "C-110",
+        "reason": "4 distinct audit-period site days; governing=H-420; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Dana Whitcomb",
+        "amount": "59840.70",
+        "code": "H-420",
+        "reason": "11 distinct audit-period site days; governing=H-420; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Helen Ostrow",
+        "amount": "46118.25",
+        "code": "C-110",
+        "reason": "0 distinct audit-period site days; governing=H-420; Nadia 01:59\u201302:00 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "site-signin-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Tenbury Ridge Framing Co.",
+        "amount": "0.00",
+        "code": "H-420",
+        "reason": "SV-TRF-01 paid 21480.00 on 2025-08-22; full-period certificate test; inclusion 0% = 0.00; CG-06/Nadia 02:20 PM",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Kent Island Roofing",
+        "amount": "8580.00",
+        "code": "R-310",
+        "reason": "SV-KEN-01 paid 14300.00 on 2025-09-12; full-period certificate test; inclusion 60.00% = 8580.00; CG-06/Nadia 02:20 PM; candidate certificate: Kent Island Roofing & Siding LLC; coverage 2025-04-01 through 2026-01-31 (not full audit period)",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Tidewater Drywall",
+        "amount": "10944.33",
+        "code": "H-420",
+        "reason": "SV-TID-01 paid 18240.55 on 2025-10-03; full-period certificate test; inclusion 60.00% = 10944.33; CG-06/Nadia 02:20 PM",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Tenbury Ridge Framing Co.",
+        "amount": "0.00",
+        "code": "H-420",
+        "reason": "SV-TRF-02 paid 18925.50 on 2025-11-14; full-period certificate test; inclusion 0% = 0.00; CG-06/Nadia 02:20 PM",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Tidewater Drywall",
+        "amount": "13749.06",
+        "code": "H-420",
+        "reason": "SV-TID-02 paid 22915.10 on 2026-02-27; full-period certificate test; inclusion 60.00% = 13749.06; CG-06/Nadia 02:20 PM",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Kent Island Roofing",
+        "amount": "11928.27",
+        "code": "R-310",
+        "reason": "SV-KEN-02 paid 19880.45 on 2026-03-20; full-period certificate test; inclusion 60.00% = 11928.27; CG-06/Nadia 02:20 PM; candidate certificate: Kent Island Roofing & Siding LLC; coverage 2025-04-01 through 2026-01-31 (not full audit period)",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "proposed/open"
+      },
+      {
+        "person": "Tenbury Ridge Framing Co.",
+        "amount": "0.00",
+        "code": "H-420",
+        "reason": "SV-TRF-03 paid 24610.25 on 2026-04-03; full-period certificate test; inclusion 0% = 0.00; CG-06/Nadia 02:20 PM",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Kent Island Roofing",
+        "amount": "7059.12",
+        "code": "R-310",
+        "reason": "SV-KEN-03 paid 11765.20 on 2026-05-08; full-period certificate test; inclusion 60.00% = 7059.12; CG-06/Nadia 02:20 PM; candidate certificate: Kent Island Roofing & Siding LLC; coverage 2025-04-01 through 2026-01-31 (not full audit period)",
+        "records": [
+          "insurance-certificates.csv",
+          "subcontractor-payments.csv"
+        ],
+        "status": "proposed/open"
+      }
+    ],
+    "open_items": [
+      "Kent Island Roofing: Certificate name mismatch unresolved; proposed uninsured inclusion pending identity and full-period coverage evidence. Invoice SV-KEN-01: proposed addition USD 8580.00.",
+      "Kent Island Roofing: Certificate name mismatch unresolved; proposed uninsured inclusion pending identity and full-period coverage evidence. Invoice SV-KEN-02: proposed addition USD 11928.27.",
+      "Kent Island Roofing: Certificate name mismatch unresolved; proposed uninsured inclusion pending identity and full-period coverage evidence. Invoice SV-KEN-03: proposed addition USD 7059.12."
+    ],
+    "weekly": [],
+    "governing": "H-420",
+    "source_names": [
+      "application.md",
+      "business-description.md",
+      "field-notes.md",
+      "insurance-certificates.csv",
+      "payroll-register.csv",
+      "site-signin-log.csv",
+      "subcontractor-payments.csv"
+    ],
+    "call_reason": "Uninsured drywall and lapsed/name-mismatched roofing certificates add payroll; Dana has 11 site days despite office reporting. Obtain identity and full-period coverage before sign-off.",
+    "priority": 2
+  }
+}

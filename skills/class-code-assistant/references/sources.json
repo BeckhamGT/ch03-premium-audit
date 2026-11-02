@@ -1,0 +1,24 @@
+{
+  "guide_url": "https://drive.google.com/file/d/1L5MxLny7erhjSwCvl43DTSmAt3wgv22j/view",
+  "employer_root": "https://drive.google.com/drive/folders/1pt8gzX8HDuaAq6g8ZFeQ66zbVIYdlN_n",
+  "employers": {
+    "severn-homebuilders": {
+      "folder_url": "https://drive.google.com/drive/folders/1F_v7eGyTBqRAmvmjLWz9iCZMCwZKH-fi"
+    },
+    "patuxent-electric": {
+      "folder_url": "https://drive.google.com/drive/folders/1IuJVQVQkrkrbuHClBxWkDpPi8hh9_-sG"
+    },
+    "larkspur-lane-bistro": {
+      "folder_url": "https://drive.google.com/drive/folders/1cGmS-J2zAC-nOvono08D0W-23xH1K8Zr"
+    },
+    "harbor-point-legal": {
+      "folder_url": "https://drive.google.com/drive/folders/1XcPXqwGvBmVSptPmG0kkAmOzXtLDx_GB"
+    },
+    "bay-crest-exteriors": {
+      "folder_url": "https://drive.google.com/drive/folders/1TEnHabH4J1eFCPZXY1PcybPVN5BxqSxk"
+    },
+    "annapolis-courier": {
+      "folder_url": "https://drive.google.com/drive/folders/1PGc2b6QTrQ8xRkPqUeQ9aWkR1j6J3QPP"
+    }
+  }
+}

@@ -1,39 +1,56 @@
 # Class Code and Premium Audit Assistant
 
-Build a reusable Agent Skill that suggests class codes, allocates payroll and drafts audit questions for Linden Shore
-Mutual's premium audit team.
+Reusable first-pass payroll audit skill for Linden Shore Mutual. It classifies actual duties, allocates payroll and drafts employer confirmation questions. It does not set rates or quote premiums. Outputs are proposed allocations, separate from learner judgments and employer confirmation.
 
-## Start
+## Setup and commands
 
-1. Read the full task supplied with this assignment: it owns the scope, deliverables and acceptance requirements.
-2. Work in this repository and commit your Skill, outputs and interview exports here.
+Requires Python 3.11+ and curl on PATH, with HTTPS access to the auditor-provided public Google Drive sources. No pip dependencies or secrets are needed for the audit runtime. Run from this repository root:
 
-## Supplied files
+```sh
+python3 skills/class-code-assistant/scripts/audit.py annapolis-courier
+python3 skills/class-code-assistant/scripts/audit.py all
+```
 
-| File | Purpose |
-|---|---|
-| `README.md` | Starting instructions. |
+Single-employer output goes under its unique `artifacts/runs/<UTC-run-id>/deliverables/`; all-employer output goes to `deliverables/`. Use `--run-id <unique-name> --output <separate-path>` for comparison runs. Every command freshly lists the employer folders and downloads the current guide and employer files, retaining URL/hash provenance and snapshots. Retrieval failures or changed evidence stop calculation; there is no stale cache fallback. Existing outputs remain prior evidence until a new run succeeds.
 
-Create the Skill, outputs and checks the task requires, and replace this README with your actual setup, run and
-verification instructions while keeping the Interview rule.
+Read [the skill](skills/class-code-assistant/SKILL.md), [rule map/design](docs/design.md), and [input contract](skills/class-code-assistant/references/input-contract.md). The reviewed facts describe duties and evidence, not expected totals; current source hashes bind them to the records reviewed. Changed sources require review before rebinding. Changed guide/interview rules require reviewing calculations too. Decimal money is rounded half-up per adjustment to cents; log/payment dates are filtered to inclusive audit periods.
 
-## Before you work
+## A new employer
 
-**Interview rule.** You conduct the stakeholder interview yourself, and the questions are yours. Do not connect a coding
-agent or any other AI to the interview to run, script, or automate it. The interview transcript is assessed together
-with the code; a project whose interview was run by an agent is not scored.
+1. Obtain its source locations from the auditor. Copy the source catalog and add a safe employer slug with `folder_url`.
+2. Run `python3 skills/class-code-assistant/scripts/audit.py <new-slug> --catalog <catalog.json> --review-sources`.
+3. Read all current sources. Create facts JSON following the input contract: inclusive period, every worker's actual duties and evidence filenames, supported work mode, guide/interview hashes, source hashes from that run manifest, and explicit open items. No payroll answers/totals are needed in facts. Do not infer duties from titles.
+4. Run `python3 skills/class-code-assistant/scripts/audit.py <new-slug> --catalog <catalog.json> --facts <facts.json>`. It fetches again and rejects intervening evidence changes. Independently verify that employer; the supplied-six verification script is not a universal oracle.
 
-- This is a real-case Challenge, closer to client work. The course rule is to plan for at most 3 conversations with the stakeholder, so prepare before each conversation and ask completely.
-- The employer files and the company's classification rules are not in this repository. Ask Nadia Brennan, the
-  premium auditor you interview, where they are, and read them from there during each run.
-- No implementation or runtime is supplied; choose and document the dependencies your Skill needs.
-- Export your interview as the original Markdown, save one final complete file per session under `interviews/`, and
-  commit it with your code. Do not rewrite the export.
+Supported runtime inputs are public Drive UTF-8 CSV/Markdown in small folders with the documented schemas. Authenticated/native files and pagination require adapter work. Drive HTML inventory is a narrow adapter that may change. Supported modes cover reviewed field duties, office site days, roofing/siding/gutters, weekly dispatchers and restaurant/catering eligibility. Supported time-based catering splits above 40%, varying daily allowances, or excluded owners appearing on the register need additional reviewed normalization; retain uncertainty rather than force an unsupported case into a mode.
 
-## Initial setup
+## Deliverables and evidence
 
-The fork is `BeckhamGT/ch03-premium-audit`; `upstream` retains the training repository. Read the assignment PDF and [setup status](docs/setup.md). Entire is enabled for Codex and checkpoint pushes to `origin`. Hook approvals and automatic post-restart session/turn events were verified on 2026-11-02, with a readable native transcript containing the verification request.
+- [Audit report](deliverables/audit-report.md): code comparisons, every worker/payment treatment, deciding records, reconciliation, open matters and call priorities.
+- [Employer questions](deliverables/audit-questions.md): confirmation of each ledger treatment and each relied-on record.
+- `deliverables/codes/*.csv`: six required CSVs with exact columns, cents, current guide paragraph identifiers and no zero rows.
+- `deliverables/calculation-ledger.json`: worker/payment and dispatcher-week calculations.
+- `interviews/ch03-premium-audit-20261102-1929.md`: original complete cumulative export, byte-matched to the original. Earlier exports are message prefixes; no extra session boundaries were invented from separate downloads.
+- `artifacts/runs/final-primary/`: final source snapshots, manifest, reviewed facts and independent verification. Other named runs preserve source review, the genuine gutters-validation failure, recovery, real single-employer and repeat-run evidence.
+- [Verification/handoff](docs/verification.md), [learner review](docs/learner-review.md), [presentation brief](docs/presentation-brief.md), and [Entire setup history](docs/setup.md).
 
-Fresh-session automatic commit linkage was verified on 2026-11-02: commit `3ad8aa56bcce820df3c1e356fa8bfa1bc40678e1` carries Entire checkpoint `01M6EW94XY9AQQK0V8MCCT1ZHJ`, whose stored transcript contains the verification request. See [setup status](docs/setup.md) for observed redaction, snapshot boundaries and remote synchronization limits.
+## Verification
 
-This stage prepares the repository only. Implementation, runtime dependencies, employer commands and result verification will be documented after the learner interview and source review. Save authentic interview exports in `interviews/`.
+```sh
+python3 -m unittest discover -s tests -v
+python3 tests/independent_reconcile.py artifacts/runs/final-primary deliverables
+git diff --check
+entire doctor
+entire checkpoint explain HEAD --json
+entire checkpoint explain HEAD --transcript > /tmp/insurance-candidate-capture.jsonl
+```
+
+Synthetic tests cover the 4/5 site-day, 14/15 roof-day, 1/2 weekly ride-day, USD47 allowance and 40% catering boundaries, missing/expired/mismatched certificates, duplicate days/payroll, period filtering, missing evidence, changed sources and unavailable sources. The independent supplied-record verifier imports no product business-rule functions, derives results using integer cents, and checks CSV schema, guide references and confirmation coverage. Real single/all commands and fresh repeat retrieval are recorded in the verification document.
+
+Inspect the actual report and deciding records, then state your own acceptance/rejection of each employer's reported split and its supporting record in the captured coding chat. Keep Harbor's undefined governing-code treatment, Severn's certificate mismatch, Patuxent's travel evidence and Larkspur's exact sales period explicit. Silence is never approval.
+
+## Interview rule
+
+**Interview rule.** You conduct the stakeholder interview yourself, and the questions are yours. Do not connect a coding agent or any other AI to the interview to run, script, or automate it. The interview transcript is assessed together with the code; a project whose interview was run by an agent is not scored.
+
+Plan for at most three conversations. Preserve one final complete original Markdown export per session under `interviews/` and commit it unchanged. Read employer sources/company rules from auditor-provided locations during every run. Keep the coding session captured. Commit required work and follow authorized synchronization to the existing fork; publishing is separate from submission and grading.

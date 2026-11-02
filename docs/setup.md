@@ -1,5 +1,7 @@
 # Initial setup — 2026-11-02
 
+Historical setup record. Current implementation, operational checks and remaining learner actions are in [verification and handoff](verification.md).
+
 Source: `GitRollTraining/ch03-premium-audit`, forked to `BeckhamGT/ch03-premium-audit`. `origin` points to the learner fork; `upstream` points to the training repository. The assignment PDF is preserved in the repository root.
 
 Scope of this stage: repository and coding capture setup only. No stakeholder interview, classification implementation, payroll decision or employer output has been created.

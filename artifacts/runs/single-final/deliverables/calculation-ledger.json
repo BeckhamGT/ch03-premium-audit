@@ -1,0 +1,977 @@
+{
+  "annapolis-courier": {
+    "name": "Annapolis Courier",
+    "start": "2025-07-07",
+    "end": "2026-07-05",
+    "totals": {
+      "T-610": "176694.95",
+      "C-110": "107820.45"
+    },
+    "reported": {
+      "T-610": "153886.20",
+      "C-110": "130629.20"
+    },
+    "codes": {
+      "C-110": "CG-04",
+      "R-310": "CG-11",
+      "R-320": "CG-12",
+      "L-620": "CG-13",
+      "H-420": "CG-15",
+      "E-510": "CG-21",
+      "M-830": "CG-22",
+      "T-610": "CG-31",
+      "G-950": "CG-35",
+      "F-710": "CG-41",
+      "F-720": "CG-42",
+      "N-910": "CG-51"
+    },
+    "base": "284515.40",
+    "allowance_included": "0",
+    "allowance_excluded": "0",
+    "subcontract_added": "0",
+    "allocated": "284515.40",
+    "ledger": [
+      {
+        "person": "Derek Nolan",
+        "amount": "52956.80",
+        "code": "T-610",
+        "reason": "Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Maria Santos",
+        "amount": "51311.00",
+        "code": "T-610",
+        "reason": "Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Felix Grant",
+        "amount": "49618.40",
+        "code": "T-610",
+        "reason": "Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Lena Ortiz",
+        "amount": "22808.75",
+        "code": "T-610",
+        "reason": "25 whole pay weeks; >=2 ride days T-610, otherwise C-110; Nadia 02:20 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv",
+          "weekly-payroll.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Lena Ortiz",
+        "amount": "24633.45",
+        "code": "C-110",
+        "reason": "27 whole pay weeks; >=2 ride days T-610, otherwise C-110; Nadia 02:20 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv",
+          "weekly-payroll.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Paul Haskins",
+        "amount": "46675.20",
+        "code": "C-110",
+        "reason": "52 whole pay weeks; >=2 ride days T-610, otherwise C-110; Nadia 02:20 PM",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv",
+          "route-log.csv",
+          "weekly-payroll.csv"
+        ],
+        "status": "supported"
+      },
+      {
+        "person": "Irene Voss",
+        "amount": "36511.80",
+        "code": "C-110",
+        "reason": "Reviewed office duties; site-day count unverified because no site log was supplied; CG-04",
+        "records": [
+          "business-description.md",
+          "field-notes.md",
+          "payroll-register.csv"
+        ],
+        "status": "proposed/open"
+      }
+    ],
+    "open_items": [
+      "Irene Voss: No site log supplied: office allocation is proposed from reviewed duties; owner must confirm whether site visits occurred. Wage affected: USD 36511.80."
+    ],
+    "weekly": [
+      {
+        "week_start": "2025-07-07",
+        "week_end": "2025-07-13",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-07-14",
+        "week_end": "2025-07-20",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-21",
+        "week_end": "2025-07-27",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-28",
+        "week_end": "2025-08-03",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-08-04",
+        "week_end": "2025-08-10",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-11",
+        "week_end": "2025-08-17",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-18",
+        "week_end": "2025-08-24",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-08-25",
+        "week_end": "2025-08-31",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-01",
+        "week_end": "2025-09-07",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-08",
+        "week_end": "2025-09-14",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-15",
+        "week_end": "2025-09-21",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-09-22",
+        "week_end": "2025-09-28",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-29",
+        "week_end": "2025-10-05",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-10-06",
+        "week_end": "2025-10-12",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-10-13",
+        "week_end": "2025-10-19",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-10-20",
+        "week_end": "2025-10-26",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-27",
+        "week_end": "2025-11-02",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-03",
+        "week_end": "2025-11-09",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-10",
+        "week_end": "2025-11-16",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-17",
+        "week_end": "2025-11-23",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-11-24",
+        "week_end": "2025-11-30",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-12-01",
+        "week_end": "2025-12-07",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-08",
+        "week_end": "2025-12-14",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-15",
+        "week_end": "2025-12-21",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-22",
+        "week_end": "2025-12-28",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2025-12-29",
+        "week_end": "2026-01-04",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-01-05",
+        "week_end": "2026-01-11",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-12",
+        "week_end": "2026-01-18",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-19",
+        "week_end": "2026-01-25",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-01-26",
+        "week_end": "2026-02-01",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-02",
+        "week_end": "2026-02-08",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 3,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-02-09",
+        "week_end": "2026-02-15",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-16",
+        "week_end": "2026-02-22",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-02-23",
+        "week_end": "2026-03-01",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-02",
+        "week_end": "2026-03-08",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-03-09",
+        "week_end": "2026-03-15",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-16",
+        "week_end": "2026-03-22",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-23",
+        "week_end": "2026-03-29",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-30",
+        "week_end": "2026-04-05",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-06",
+        "week_end": "2026-04-12",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-13",
+        "week_end": "2026-04-19",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-20",
+        "week_end": "2026-04-26",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-04-27",
+        "week_end": "2026-05-03",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-05-04",
+        "week_end": "2026-05-10",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-11",
+        "week_end": "2026-05-17",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-18",
+        "week_end": "2026-05-24",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-25",
+        "week_end": "2026-05-31",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-01",
+        "week_end": "2026-06-07",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-06-08",
+        "week_end": "2026-06-14",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 2,
+        "code": "T-610"
+      },
+      {
+        "week_start": "2026-06-15",
+        "week_end": "2026-06-21",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "employee_id": "AC-E04",
+        "gross_pay": "912.35",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-07",
+        "week_end": "2025-07-13",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-14",
+        "week_end": "2025-07-20",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-21",
+        "week_end": "2025-07-27",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-07-28",
+        "week_end": "2025-08-03",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-04",
+        "week_end": "2025-08-10",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-11",
+        "week_end": "2025-08-17",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-18",
+        "week_end": "2025-08-24",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-08-25",
+        "week_end": "2025-08-31",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-01",
+        "week_end": "2025-09-07",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-08",
+        "week_end": "2025-09-14",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-15",
+        "week_end": "2025-09-21",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-22",
+        "week_end": "2025-09-28",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-09-29",
+        "week_end": "2025-10-05",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-06",
+        "week_end": "2025-10-12",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-13",
+        "week_end": "2025-10-19",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-20",
+        "week_end": "2025-10-26",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-10-27",
+        "week_end": "2025-11-02",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-03",
+        "week_end": "2025-11-09",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-10",
+        "week_end": "2025-11-16",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-17",
+        "week_end": "2025-11-23",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-11-24",
+        "week_end": "2025-11-30",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-01",
+        "week_end": "2025-12-07",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-08",
+        "week_end": "2025-12-14",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-15",
+        "week_end": "2025-12-21",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-22",
+        "week_end": "2025-12-28",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2025-12-29",
+        "week_end": "2026-01-04",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-05",
+        "week_end": "2026-01-11",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-12",
+        "week_end": "2026-01-18",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-19",
+        "week_end": "2026-01-25",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-01-26",
+        "week_end": "2026-02-01",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-02",
+        "week_end": "2026-02-08",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-09",
+        "week_end": "2026-02-15",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-16",
+        "week_end": "2026-02-22",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-02-23",
+        "week_end": "2026-03-01",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-02",
+        "week_end": "2026-03-08",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-09",
+        "week_end": "2026-03-15",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-16",
+        "week_end": "2026-03-22",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-23",
+        "week_end": "2026-03-29",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 1,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-03-30",
+        "week_end": "2026-04-05",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-06",
+        "week_end": "2026-04-12",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-13",
+        "week_end": "2026-04-19",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-20",
+        "week_end": "2026-04-26",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-04-27",
+        "week_end": "2026-05-03",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-04",
+        "week_end": "2026-05-10",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-11",
+        "week_end": "2026-05-17",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-18",
+        "week_end": "2026-05-24",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-05-25",
+        "week_end": "2026-05-31",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-01",
+        "week_end": "2026-06-07",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-08",
+        "week_end": "2026-06-14",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-15",
+        "week_end": "2026-06-21",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "employee_id": "AC-E05",
+        "gross_pay": "897.60",
+        "ride_days": 0,
+        "code": "C-110"
+      }
+    ],
+    "governing": "T-610",
+    "source_names": [
+      "application.md",
+      "business-description.md",
+      "field-notes.md",
+      "payroll-register.csv",
+      "route-log.csv",
+      "weekly-payroll.csv"
+    ],
+    "call_reason": "",
+    "priority": 99
+  }
+}
