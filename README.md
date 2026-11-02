@@ -31,14 +31,14 @@ Supported runtime inputs are public Drive UTF-8 CSV/Markdown in small folders wi
 - `deliverables/codes/*.csv`: six required CSVs with exact columns, cents, current guide paragraph identifiers and no zero rows.
 - `deliverables/calculation-ledger.json`: worker/payment and dispatcher-week calculations.
 - `interviews/ch03-premium-audit-20261102-1929.md`: original complete cumulative export, byte-matched to the original. Earlier exports are message prefixes; no extra session boundaries were invented from separate downloads.
-- `artifacts/runs/final-primary/`: final source snapshots, manifest, reviewed facts and independent verification. Other named runs preserve source review, the genuine gutters-validation failure, recovery, real single-employer and repeat-run evidence.
+- `artifacts/runs/learner-reviewed/`: current source snapshots, manifest, reviewed facts, learner-state snapshot and independent verification. Other named runs preserve the pre-review baseline, source review, genuine gutters-validation failure, recovery, real single-employer and repeat-run evidence.
 - [Verification/handoff](docs/verification.md), [learner review](docs/learner-review.md), [presentation brief](docs/presentation-brief.md), and [Entire setup history](docs/setup.md).
 
 ## Verification
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 tests/independent_reconcile.py artifacts/runs/final-primary deliverables
+python3 tests/independent_reconcile.py artifacts/runs/learner-reviewed deliverables
 git diff --check
 entire doctor
 entire checkpoint explain HEAD --json
@@ -48,6 +48,8 @@ entire checkpoint explain HEAD --transcript > /tmp/insurance-candidate-capture.j
 Synthetic tests cover the 4/5 site-day, 14/15 roof-day, 1/2 weekly ride-day, USD47 allowance and 40% catering boundaries, missing/expired/mismatched certificates, duplicate days/payroll, period filtering, missing evidence, changed sources and unavailable sources. The independent supplied-record verifier imports no product business-rule functions, derives results using integer cents, and checks CSV schema, guide references and confirmation coverage. Real single/all commands and fresh repeat retrieval are recorded in the verification document.
 
 Inspect the actual report and deciding records, then state your own acceptance/rejection of each employer's reported split and its supporting record in the captured coding chat. Keep Harbor's undefined governing-code treatment, Severn's certificate mismatch, Patuxent's travel evidence and Larkspur's exact sales period explicit. Silence is never approval.
+
+Current review: all six individual choices and cited records have been captured in `docs/learner-review.md`. `docs/learner-review-state.json` preserves their display across regeneration only when guide/employer-source hashes match. The reports distinguish those choices from company-rule calculations; in particular, Annapolis's learner-selected two-fifths alternative conflicts with the whole-week rule and is not silently substituted into the CSV. See the verification handoff for remaining correctness and visual-QA limitations; no submission readiness is claimed.
 
 ## Interview rule
 

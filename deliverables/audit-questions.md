@@ -4,6 +4,8 @@ Nadia puts these questions to each employer owner before sign-off. These are not
 
 ## Annapolis Courier
 
+Learner review: Choose USD18976.88 of Lena’s wages in T-610 using two-fifths, citing application.md; this supersedes acceptance of the whole-week proposal. Learner alternative: T-610 USD172863.08, C-110 USD111652.32, total USD284515.40. This conflicts with Nadia’s whole-week rule and differs by USD3831.87 per code from the source-backed table and CSV. No company-policy exception is established. These questions remain unanswered by the employer.
+
 - **annapolis-courier-A01** — Please confirm Derek Nolan: USD 52956.80 allocated/added to T-610, including this treatment: Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties. Do business-description.md, field-notes.md, payroll-register.csv, route-log.csv support it, and are corrections needed?
 
 - **annapolis-courier-A02** — Please confirm Maria Santos: USD 51311.00 allocated/added to T-610, including this treatment: Parcel delivery driver, corroborated by route log; CG-02/CG-05 actual duties. Do business-description.md, field-notes.md, payroll-register.csv, route-log.csv support it, and are corrections needed?
@@ -33,6 +35,8 @@ Nadia puts these questions to each employer owner before sign-off. These are not
 - **annapolis-courier-R06** — Please confirm weekly-payroll.csv is complete for 2025-07-07 through 2026-07-05, including applicable owner elections, recorded duties, dates and amounts; identify corrections to the application or field notes.
 
 ## Bay Crest Exteriors
+
+Learner review: Accept proposed correction rather than original application, following clarification; previously cited crew-timesheet.csv (supplied filename: crew-timesheets.csv). Teresa’s correction also relies on the site log shown in the walkthrough. Employer confirmation remains open. These questions remain unanswered by the employer.
 
 - **bay-crest-exteriors-A01** — Please confirm Darnell Price: USD 61240.55 allocated/added to R-310, including this treatment: 188 distinct roof days; whole-worker wage; Nadia 02:26/02:28 PM. Do business-description.md, crew-timesheets.csv, field-notes.md, payroll-register.csv support it, and are corrections needed?
 
@@ -68,6 +72,8 @@ Nadia puts these questions to each employer owner before sign-off. These are not
 
 ## Harbor Point Legal
 
+Learner review: Accept original split, citing payroll-register.csv; C-110 explicitly selected as Tomas’s final learner choice. The register establishes wages, not an exception for six site days with no governing code. Company-rule treatment remains open. These questions remain unanswered by the employer.
+
 - **harbor-point-legal-A01** — Please confirm Marcus Adeyemi: USD 128400.00 allocated/added to C-110, including this treatment: 0 distinct audit-period site days; governing=None; Nadia 01:59–02:00 PM. Do business-description.md, field-notes.md, payroll-register.csv, site-signin-log.csv support it, and are corrections needed?
 
 - **harbor-point-legal-A02** — Please confirm Julia Fenwick: USD 121750.00 allocated/added to C-110, including this treatment: 0 distinct audit-period site days; governing=None; Nadia 01:59–02:00 PM. Do business-description.md, field-notes.md, payroll-register.csv, site-signin-log.csv support it, and are corrections needed?
@@ -93,6 +99,8 @@ Nadia puts these questions to each employer owner before sign-off. These are not
 - **harbor-point-legal-R05** — Please confirm site-signin-log.csv is complete for 2025-07-07 through 2026-07-05, including applicable owner elections, recorded duties, dates and amounts; identify corrections to the application or field notes.
 
 ## Larkspur Lane Bistro
+
+Learner review: Accept proposed correction rather than original application, citing gross-receipts.csv. The exact audit-period receipts mismatch remains open; learner acceptance does not establish missing dates or employer confirmation. These questions remain unanswered by the employer.
 
 - **larkspur-lane-bistro-A01** — Please confirm Anton Varga: USD 52310.45 allocated/added to F-710, including this treatment: Offsite receipts 362410.85 / gross 1647026.05; Nadia 02:21/02:28 PM; no sales-proportion split. Do business-description.md, field-notes.md, gross-receipts.csv, payroll-register.csv support it, and are corrections needed?
 
@@ -144,6 +152,8 @@ Nadia puts these questions to each employer owner before sign-off. These are not
 
 ## Patuxent Electric
 
+Learner review: Accept proposed correction rather than original application, citing payroll-register.csv. Owner duties are additionally supported by the linked field notes/business description. Travel-day substantiation and Kyle’s allowance remain open. These questions remain unanswered by the employer.
+
 - **patuxent-electric-A01** — Please confirm Raymond Dunmore: USD 118000.00 allocated/added to E-510, including this treatment: Electrical wiring on site; included owner personally pulls wire; CG-02/CG-05 actual duties. Do business-description.md, field-notes.md, payroll-register.csv support it, and are corrections needed?
 
 - **patuxent-electric-A02** — Please confirm Curtis Bell: USD 72410.35 allocated/added to E-510, including this treatment: Electrician or apprentice installing wiring; CG-02/CG-05 actual duties. Do business-description.md, field-notes.md, payroll-register.csv support it, and are corrections needed?
@@ -183,6 +193,8 @@ Nadia puts these questions to each employer owner before sign-off. These are not
 - **patuxent-electric-R05** — Please confirm site-signin-log.csv is complete for 2025-07-07 through 2026-07-05, including applicable owner elections, recorded duties, dates and amounts; identify corrections to the application or field notes.
 
 ## Severn Homebuilders
+
+Learner review: Accept original split, citing insurance-certificates.csv, after the discrepancies were explained. Supplied certificates do not establish full-period coverage for all subcontractors, and the site log supports Dana’s reclassification. Source-backed proposals remain separate; employer confirmation remains open. These questions remain unanswered by the employer.
 
 - **severn-homebuilders-A01** — Please confirm Garrett Holm: USD 66315.40 allocated/added to H-420, including this treatment: Residential construction crew: carpentry and site labor; CG-02/CG-05 actual duties. Do business-description.md, field-notes.md, payroll-register.csv support it, and are corrections needed?
 

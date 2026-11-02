@@ -9,10 +9,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'skills/class-code-
 from engine import (D, analyze, allowance, catering_code, certificate, dispatcher_code,
                     office_code, period_rows, roof_code, unique_days)
 from sources import collect, inventory
-from audit import main, validate_binding
+from audit import bound_reviews, main, validate_binding
 
 
 class Rules(unittest.TestCase):
+    def test_review_choices_bound_to_evidence(self):
+        facts = {'guide_sha256': 'guide-v1', 'employers': {'new-employer': {'source_hashes': {'payroll.csv': 'v1'}}}}
+        review = {'guide_sha256': 'guide-v1', 'employers': {'new-employer': {'source_hashes': {'payroll.csv': 'v1'}, 'display': 'A captured choice'}}}
+        self.assertEqual(bound_reviews(review, facts), {'new-employer': 'A captured choice'})
+        facts['employers']['new-employer']['source_hashes']['payroll.csv'] = 'v2'
+        self.assertEqual(bound_reviews(review, facts), {})
+        review['guide_sha256'] = 'guide-v2'
+        facts['employers']['new-employer']['source_hashes']['payroll.csv'] = 'v1'
+        self.assertEqual(bound_reviews(review, facts), {})
+
     def test_source_change_requires_review(self):
         from sources import sha
         facts = {'guide_sha256': sha(b'guide'), 'employers': {'new-employer': {'source_hashes': {'payroll.csv': 'old'}}}}

@@ -6,6 +6,7 @@ test_cli_failure_preserves_output (test_rules.Rules.test_cli_failure_preserves_o
 ok
 test_duplicate_days_and_period (test_rules.Rules.test_duplicate_days_and_period) ... ok
 test_missing_site_evidence_and_duplicate_weeks (test_rules.Rules.test_missing_site_evidence_and_duplicate_weeks) ... ok
+test_review_choices_bound_to_evidence (test_rules.Rules.test_review_choices_bound_to_evidence) ... ok
 test_ride_boundary (test_rules.Rules.test_ride_boundary) ... ok
 test_roof_boundary (test_rules.Rules.test_roof_boundary) ... ok
 test_site_boundary (test_rules.Rules.test_site_boundary) ... ok
@@ -14,6 +15,6 @@ test_unavailable_never_uses_cache (test_rules.Rules.test_unavailable_never_uses_
 test_whole_worker_gutters_and_duplicate_payroll (test_rules.Rules.test_whole_worker_gutters_and_duplicate_payroll) ... ok
 
 ----------------------------------------------------------------------
-Ran 13 tests in 0.003s
+Ran 14 tests in 0.003s
 
 OK

@@ -27,11 +27,20 @@ def validate_binding(facts, guide, inputs, manifest):
             raise ValueError(employer + ': source/inventory changed; review duties and rebind facts')
 
 
-def render(results, out, source_root):
+def bound_reviews(review, facts):
+    """Apply captured choices only to the same guide and employer evidence."""
+    if review.get('guide_sha256') != facts['guide_sha256']:
+        return {}
+    return {e: r['display'] for e, r in review.get('employers', {}).items()
+            if e in facts['employers'] and r['source_hashes'] == facts['employers'][e]['source_hashes']}
+
+
+def render(results, out, source_root, reviews=None):
+    reviews = reviews or {}
     out.mkdir(parents=True, exist_ok=False)
     (out / 'codes').mkdir()
     report = ['# Premium audit: proposed allocations', '',
-              'First-pass review only. Learner decisions and employer confirmations are pending. No rates or premium calculations.', '',
+              'First-pass company-rule proposals. Individual learner choices are shown separately below; employer confirmation remains open. No rates or premium calculations.', '',
               'Authority: July 2025 company guide and the preserved November 2, 2026 interview. Source-specific practices specialize CG-07; they are not universal wage-splitting rules.', '',
               '## Call first', '']
     for e, r in sorted(results.items(), key=lambda p: p[1]['priority'])[:2]:
@@ -49,7 +58,8 @@ def render(results, out, source_root):
                     w.writerow([code, f'{n:.2f}', r['codes'][code]])
         rel = Path(os.path.relpath(source_root / e, out)).as_posix()
         link = lambda name: f'[{name}]({rel}/{name})'
-        report += [f'## {r["name"]}', '', f'Audit period: {r["start"]} through {r["end"]}, inclusive. Learner review: **pending**.', '',
+        review_text = reviews.get(e, 'Pending for this source revision; no matching captured individual choice is applied.')
+        report += [f'## {r["name"]}', '', f'Audit period: {r["start"]} through {r["end"]}, inclusive. Learner review: {review_text}', '',
                    '| Code | Employer reported USD | Proposed USD | Difference USD | Guide |',
                    '|---|---:|---:|---:|---|']
         for c in sorted(set(r['reported']) | set(r['totals'])):
@@ -58,7 +68,7 @@ def render(results, out, source_root):
         report += ['', f'Reconciliation: base wages **USD {r["base"]:.2f}** + included allowances **USD {r["allowance_included"]:.2f}** + subcontractor additions **USD {r["subcontract_added"]:.2f}** = allocated **USD {r["allocated"]:.2f}**. Separately paid allowances excluded: **USD {r["allowance_excluded"]:.2f}**. Reclassifications move wages between codes without changing this total.', '',
                    '### Worker and payment detail', '',
                    'Each entry states the whole wage or payment adjustment, its deciding records, and the confirmation question ID. The application identifies aggregate codes; where it does not identify individual assignments, no individual reported code is invented.', '']
-        questions += [f'## {r["name"]}', '']
+        questions += [f'## {r["name"]}', '', f'Learner review: {review_text} These questions remain unanswered by the employer.', '']
         for i, row in enumerate(r['ledger'], 1):
             qid = f'{e}-A{i:02}'
             records = ', '.join(link(n) for n in row['records'])
@@ -74,7 +84,7 @@ def render(results, out, source_root):
         for i, name in enumerate(r['source_names'], 1):
             report += [f'- {link(name)} (confirmation {e}-R{i:02}).']
             questions += [f'- **{e}-R{i:02}** — Please confirm {name} is complete for {r["start"]} through {r["end"]}, including applicable owner elections, recorded duties, dates and amounts; identify corrections to the application or field notes.', '']
-        report += ['', 'Learner review guide: compare the application with the code table, inspect the linked deciding records and open items, then state your own acceptance or rejection of the employer split and the record supporting that judgment in the captured coding chat.', '']
+        report += ['', 'Review provenance: authentic learner statements and later clarifications are preserved in repository docs/learner-review.md. A recorded choice does not establish company policy or employer confirmation. If sources change, reassess the judgment against the new evidence.', '']
     (out / 'audit-report.md').write_text('\n'.join(report).rstrip() + '\n')
     (out / 'audit-questions.md').write_text('\n'.join(questions).rstrip() + '\n')
     (out / 'calculation-ledger.json').write_text(json.dumps(results, indent=2, default=str) + '\n')
@@ -105,15 +115,20 @@ def main(argv=None):
             return 0
         facts = json.loads(args.facts.read_text())
         validate_binding(facts, guide, inputs, manifest)
+        review_path = ROOT / 'docs/learner-review-state.json'
+        review = json.loads(review_path.read_text()) if review_path.exists() else {}
+        reviews = bound_reviews(review, facts)
         transcript = ROOT / 'interviews/ch03-premium-audit-20261102-1929.md'
         if sha(transcript.read_bytes()) != facts['interview_sha256']:
             raise ValueError('Interview changed; review house practices')
         shutil.copyfile(args.facts, run / 'reviewed-facts.json')
+        if review_path.exists():
+            shutil.copyfile(review_path, run / 'learner-review-state.json')
         results = {e: analyze(inputs[e], facts['employers'][e], guide) for e in selected}
         output = args.output or (ROOT / 'deliverables' if args.employer == 'all' else run / 'deliverables')
         # Render links for final destination; write all staged content before publishing.
         staged = run / 'staged'
-        render(results, staged, run / 'sources')
+        render(results, staged, run / 'sources', reviews)
         for name in ('audit-report.md', 'audit-questions.md'):
             text = (staged / name).read_text()
             old = os.path.relpath(run / 'sources', staged)
