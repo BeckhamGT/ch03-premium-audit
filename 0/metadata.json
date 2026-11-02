@@ -1,0 +1,62 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M6EW94XY9AQQK0V8MCCT1ZHJ",
+  "session_id": "01a19dc3-5657-7b20-8a68-c3f9c79a65c5",
+  "strategy": "manual-commit",
+  "created_at": "2026-11-02T19:37:48.495708Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "docs/setup.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6.1-sol",
+  "turn_id": "5d518ed9b8c5",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 41714,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 355072,
+    "output_tokens": 2576,
+    "api_call_count": 10
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-11-02T19:37:48.483121Z",
+    "agent_lines": 14,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 14,
+    "total_lines_changed": 14,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 566,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "apprentice-workspace/.gitignore": 2,
+        "apprentice-workspace/AGENTS.md": 96,
+        "apprentice-workspace/INDEX.md": 35,
+        "apprentice-workspace/engagements/INDEX.md": 39,
+        "apprentice-workspace/engagements/example-client/INDEX.md": 33,
+        "apprentice-workspace/engagements/example-client/deliverable/INDEX.md": 40,
+        "apprentice-workspace/engagements/example-client/handover/INDEX.md": 27,
+        "apprentice-workspace/engagements/example-client/interview/INDEX.md": 21,
+        "apprentice-workspace/engagements/example-client/process/INDEX.md": 24,
+        "apprentice-workspace/engagements/example-client/spec/INDEX.md": 29,
+        "apprentice-workspace/engagements/example-client/verification/INDEX.md": 73,
+        "apprentice-workspace/reference/INDEX.md": 32,
+        "apprentice-workspace/reference/question-bank.md": 27,
+        "apprentice-workspace/reference/self-audit-log.md": 17,
+        "apprentice-workspace/training/INDEX.md": 37,
+        "apprentice-workspace/training/onboarding/INDEX.md": 34
+      }
+    }
+  ]
+}
