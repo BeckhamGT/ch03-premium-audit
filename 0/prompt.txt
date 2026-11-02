@@ -1,0 +1,17 @@
+I accept the proposed correction, gross-receipts.csv
+
+---
+
+New decision, I accept Severn new proposed correction, reason is insurance-certificate, site-signin-log, and subcontractor-payment looks good to me after reviewing it. Furthermore, I want to revise my decision on Annapolis. My two-fifths allocation conflicts with Nadia’s whole-week rule.
+
+---
+
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_fbf2512bdb9640a1aa2d72fadc510a87\",0]","question":"For Annapolis, do you now accept the whole-week correction—$22,808.75 of Lena’s wages under T-610, producing employer totals T-610 $176,694.95 and C-110 $107,820.45—and which record or records support your revised judgment?","answer":"Yes I accept whole-week correction, i forgot but whichever document it was that showed the driver payroll"}]
+</send_user_message_question_reply>
+
+---
+
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_d1add803de9c44a0847c3bc055e7013f\",0]","question":"Which record or records do you want to cite for your revised Annapolis judgment? Weekly-payroll.csv shows weekly wages; route-log.csv shows the ride days; audit-report.md shows the calculated driver allocation.","answer":"weekly-payroll.csv and route-log.csv"}]
+</send_user_message_question_reply>
